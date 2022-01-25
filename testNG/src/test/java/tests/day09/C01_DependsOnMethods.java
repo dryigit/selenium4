@@ -29,7 +29,7 @@ public void logoTest(){
 	Assert.assertTrue(logoElement.isDisplayed());
 }
 @Test (dependsOnMethods = "logoTest")
-public void aramaTesti(){
+public void searchTest(){
 	//  If the 1st test is successful, use the search box for "Nutella".
 	// search and test that your search works
 	WebElement searchBox= driver.findElement(By.id("twotabsearchtextbox"));
@@ -39,8 +39,8 @@ public void aramaTesti(){
 	Assert.assertTrue(actualTitle.contains(searchedText));
 }
 
-@Test(dependsOnMethods = "aramaTesti")
-public void fiyatTesti(){
+@Test(dependsOnMethods = "searchTest")
+public void priceTest(){
 	//  3.Test : If you searched for "Nutella", click the first product and test the price is $14.99
 	driver.findElement(By.xpath("(//div[@class='a-section aok-relative s-image-square-aspect'])[1]")).click();
 	WebElement productPrice=driver.findElement(By.xpath("(//span[@class='a-declarative'])[21]"));
