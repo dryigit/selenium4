@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="010ba43d-9bd9-492e-be17-783a1315b918" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Maven/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Maven/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Maven/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Maven/src/test/java/day05_mavenProjectCreation/C01_FirstMavenClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Maven/src/test/java/day05_mavenProjectCreation/C02_Xpath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../batch44_Juit/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../batch44_Juit/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../batch44_Juit/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../batch44_Juit/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../batch44_Juit/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../batch44_Juit/src/test/java/day06_JUnit/C01_Recap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../batch44_Juit/src/test/java/day06_JUnit/C02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../batch44_Juit/src/test/java/day06_JUnit/C03_FirstTestMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../batch44_Juit/src/test/java/day06_JUnit/C04_DifferentTestsinSinglePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../batch44_Juit/target/test-classes/day06_JUnit/C01_Recap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../batch44_Juit/target/test-classes/day06_JUnit/C02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../batch44_Juit/target/test-classes/day06_JUnit/C03_FirstTestMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../batch44_Juit/target/test-classes/day06_JUnit/C04_DifferentTestsinSinglePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.Batch44JUnit/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.Batch44JUnit/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mavenProject/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mavenProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mavenProject/src/test/java/day05_mavenProjectCreation/C01_FirstMavenClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mavenProject/src/test/java/day05_mavenProjectCreation/C02_Xpath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selenium/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../selenium/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selenium/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../selenium/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selenium/src/test/java/day01/C01_IlkClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../selenium/src/test/java/day01/C01_IlkClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../selenium/src/test/java/day02_driverMethods/C01_Tekrar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tesng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tesng/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tesng/src/test/java/tests/day08/C01_Notations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tesng/src/test/java/tests/day08/C02_HandleDropdown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tesng/src/test/java/tests/day08/C03_Dropdown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tesng/src/test/java/tests/day08/C04_DropdownAmazon.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24B96lkyTTQete6t9TPvQgnWYvF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showModules" value="false" />
+    <option name="showURL" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="010ba43d-9bd9-492e-be17-783a1315b918" name="Changes" comment="" />
+      <created>1643091123029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643091123029</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+</project>
