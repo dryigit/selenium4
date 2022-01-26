@@ -195,17 +195,17 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
-  <component name="RunManager" selected="TestNG.C01_DependsOnMethods">
-    <configuration name="C01_DependsOnMethods" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C01_Allerts">
+    <configuration name="C01_Allerts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day09.*" />
+          <option name="PATTERN" value="tests.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day09" />
-      <option name="MAIN_CLASS_NAME" value="tests.day09.C01_DependsOnMethods" />
+      <option name="PACKAGE_NAME" value="tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="tests.day10.C01_Allerts" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -213,17 +213,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_DependsOnMethods.fiyatTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_Allerts.acceptAllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day09.*" />
+          <option name="PATTERN" value="tests.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day09" />
-      <option name="MAIN_CLASS_NAME" value="tests.day09.C01_DependsOnMethods" />
-      <option name="METHOD_NAME" value="fiyatTesti" />
+      <option name="PACKAGE_NAME" value="tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="tests.day10.C01_Allerts" />
+      <option name="METHOD_NAME" value="acceptAllerTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -231,17 +231,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_DependsOnMethods.logoTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_Allerts.dismissAllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day09.*" />
+          <option name="PATTERN" value="tests.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day09" />
-      <option name="MAIN_CLASS_NAME" value="tests.day09.C01_DependsOnMethods" />
-      <option name="METHOD_NAME" value="logoTest" />
+      <option name="PACKAGE_NAME" value="tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="tests.day10.C01_Allerts" />
+      <option name="METHOD_NAME" value="dismissAllerTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -249,17 +249,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_DependsOnMethods.logoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_Allerts.sendKeysAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day09.*" />
+          <option name="PATTERN" value="tests.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day09" />
-      <option name="MAIN_CLASS_NAME" value="tests.day09.C01_DependsOnMethods" />
-      <option name="METHOD_NAME" value="logoTest" />
+      <option name="PACKAGE_NAME" value="tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="tests.day10.C01_Allerts" />
+      <option name="METHOD_NAME" value="sendKeysAlertTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -267,7 +267,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_DependsOnMethods.searchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_SoftAssertions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
@@ -276,9 +276,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.day09" />
-      <option name="MAIN_CLASS_NAME" value="tests.day09.C01_DependsOnMethods" />
-      <option name="METHOD_NAME" value="searchTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="tests.day09.C03_SoftAssertions" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -287,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C01_DependsOnMethods" />
-        <item itemvalue="TestNG.C01_DependsOnMethods.fiyatTesti" />
-        <item itemvalue="TestNG.C01_DependsOnMethods.searchTest" />
-        <item itemvalue="TestNG.C01_DependsOnMethods.logoTest" />
-        <item itemvalue="TestNG.C01_DependsOnMethods.logoTest (1)" />
+        <item itemvalue="TestNG.C01_Allerts" />
+        <item itemvalue="TestNG.C01_Allerts.acceptAllerTest" />
+        <item itemvalue="TestNG.C01_Allerts.sendKeysAlertTest" />
+        <item itemvalue="TestNG.C01_Allerts.dismissAllerTest" />
+        <item itemvalue="TestNG.C03_SoftAssertions" />
       </list>
     </recent_temporary>
   </component>
