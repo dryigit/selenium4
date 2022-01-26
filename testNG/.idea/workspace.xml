@@ -195,42 +195,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
-  <component name="RunManager" selected="TestNG.C03_iFrame">
-    <configuration name="C01_Allerts" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day10" />
-      <option name="MAIN_CLASS_NAME" value="tests.day10.C01_Allerts" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_Allerts.acceptAllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day10" />
-      <option name="MAIN_CLASS_NAME" value="tests.day10.C01_Allerts" />
-      <option name="METHOD_NAME" value="acceptAllerTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C03_IFrame.iFrameTesti">
     <configuration name="C02_BasicAuthentication.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
@@ -242,6 +207,41 @@
       <option name="PACKAGE_NAME" value="tests.day10" />
       <option name="MAIN_CLASS_NAME" value="tests.day10.C02_BasicAuthentication" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_IFrame" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="tests.day10.C03_IFrame" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_IFrame.iFrameTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="tests.day10.C03_IFrame" />
+      <option name="METHOD_NAME" value="iFrameTesti" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -286,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C03_IFrame.iFrameTesti" />
+        <item itemvalue="TestNG.C03_IFrame" />
         <item itemvalue="TestNG.C03_iFrame" />
         <item itemvalue="TestNG.C03_iFrame.test" />
         <item itemvalue="TestNG.C02_BasicAuthentication.test" />
-        <item itemvalue="TestNG.C01_Allerts" />
-        <item itemvalue="TestNG.C01_Allerts.acceptAllerTest" />
       </list>
     </recent_temporary>
   </component>

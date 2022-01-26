@@ -42,9 +42,11 @@ public void iFrameTesti(){
 	// Verify that the text "Sponsored by Sauce Labs" is visible on the new page and print it in the console.
 	// We could not locate the article because the sponsored text
 	// was on the new page and the driver remained on the old page.
+	driver.get("http://elementalselenium.com/");
 	WebElement sponsoredTextElement=driver.findElement(By.xpath("//p[text()='Sponsored by ']"));
 	softAssert.assertTrue(sponsoredTextElement.isDisplayed(),"Sponsored text is not displayed");
 	softAssert.assertAll();
+	System.out.println(sponsoredTextElement.getText());
 }
 
 @AfterClass
