@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7f39d7a-1798-415f-a7a4-4389b9a0a876" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/RelativeLocatorPracticeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/src/test/java/day05_mavenProjectCreation/C01_FirstMavenClass.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/src/test/java/day05_mavenProjectCreation/C02_Xpath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Q1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/Q2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/practice/Q1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/practice/Q1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../batch44_Juit/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../batch44_Juit/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../batch44_Juit/.idea/vcs.xml" beforeDir="false" />
@@ -65,7 +72,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24BAQ4sOrDSg2iaWVs3seqgFsXi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -75,6 +84,7 @@
     <option name="showURL" value="false" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -82,21 +92,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.Q1">
-    <configuration name="C01_Recap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day06_JUnit.C01_Recap" />
-      <module name="junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day06_JUnit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_Q1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RelativeLocatorPracticeTest">
+    <configuration name="Q2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +102,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.C01_Q1" />
+      <option name="MAIN_CLASS_NAME" value="practice.Q2" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_Q1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Q2.logoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit" />
       <extension name="coverage">
         <pattern>
@@ -120,14 +117,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.C01_Q1" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="practice.Q2" />
+      <option name="METHOD_NAME" value="logoTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Q2.mexicoLinkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit" />
       <extension name="coverage">
         <pattern>
@@ -136,18 +133,51 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.Q1" />
+      <option name="MAIN_CLASS_NAME" value="practice.Q2" />
+      <option name="METHOD_NAME" value="mexicoLinkTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelativeLocatorPracticeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.RelativeLocatorPracticeTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelativeLocatorPracticeTest.mexicoLinkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.RelativeLocatorPracticeTest" />
+      <option name="METHOD_NAME" value="mexicoLinkTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Q1" />
-        <item itemvalue="JUnit.C01_Q1.test1" />
-        <item itemvalue="JUnit.C01_Q1" />
-        <item itemvalue="Application.C01_Recap" />
+        <item itemvalue="JUnit.RelativeLocatorPracticeTest" />
+        <item itemvalue="JUnit.RelativeLocatorPracticeTest.mexicoLinkTest" />
+        <item itemvalue="JUnit.Q2" />
+        <item itemvalue="JUnit.Q2.mexicoLinkTest" />
+        <item itemvalue="JUnit.Q2.logoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,5 +191,23 @@
       <updated>1643093589055</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/practice/RelativeLocatorPracticeTest.java</url>
+          <line>48</line>
+          <properties class="practice.RelativeLocatorPracticeTest" method="mexicoLinkTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
