@@ -195,7 +195,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
-  <component name="RunManager" selected="TestNG.C01_Allerts">
+  <component name="RunManager" selected="TestNG.C02_BasicAuthentication.test">
     <configuration name="C01_Allerts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
@@ -267,17 +267,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_SoftAssertions" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_BasicAuthentication.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day09.*" />
+          <option name="PATTERN" value="tests.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day09" />
-      <option name="MAIN_CLASS_NAME" value="tests.day09.C03_SoftAssertions" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="tests.day10.C02_BasicAuthentication" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -286,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C02_BasicAuthentication.test" />
         <item itemvalue="TestNG.C01_Allerts" />
         <item itemvalue="TestNG.C01_Allerts.acceptAllerTest" />
         <item itemvalue="TestNG.C01_Allerts.sendKeysAlertTest" />
         <item itemvalue="TestNG.C01_Allerts.dismissAllerTest" />
-        <item itemvalue="TestNG.C03_SoftAssertions" />
       </list>
     </recent_temporary>
   </component>
