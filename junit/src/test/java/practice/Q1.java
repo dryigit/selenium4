@@ -7,16 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 public class Q1 {
-/*
-...Exercise1...
-BeforeClass ile driver ı olusturun ve class icinde static yapin
-Maximize edin, 15 sn bekletin
-http://www.google.com adresine gidin
-arama kutusuna "Green Mile" yazip, cikan sonuc sayisini yazdirin
-arama kutusuna  "Premonition" yazip, cikan sonuc sayisini yazdirin
-arama kutusuna  "The Curious Case of Benjamin Button" yazip, cikan sonuc sayisini yazdirin
-AfterClass ile kapatın
-*/
+
 static WebDriver driver;
 @BeforeClass
 public static void setUp(){
@@ -31,6 +22,7 @@ public static void tearDown(){
 }
 @Before
 public void testtenOnce(){
+	// go to http://www.google.com
 	driver.get("http://www.google.com");
 }
 @After
@@ -39,14 +31,20 @@ public void testtenSonra(){
 }
 @Test
 public void test1(){
+	//search "Green Mile" , and print the number of results
+	
 	driver.findElement(By.xpath("//input[@name='q']")).sendKeys("Green Mile" + Keys.ENTER);
 }
 @Test
 public void test2(){
+	//search "Premonition" , and print the number of results
+	
 	driver.findElement(By.xpath("//input[@name='q']")).sendKeys("Premonition" + Keys.ENTER);
 }
 @Test
 public void test3(){
+	//search "The Curious Case of Benjamin Button" , and print the number of results
+	
 	driver.findElement(By.xpath("//input[@name='q']")).sendKeys("The Curious Case of Benjamin Button" + Keys.ENTER);
 }
 }

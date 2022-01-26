@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7f39d7a-1798-415f-a7a4-4389b9a0a876" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/Q2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/src/test/java/day05_mavenProjectCreation/C01_FirstMavenClass.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/src/test/java/day05_mavenProjectCreation/C02_Xpath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/Q1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../batch44_Juit/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../batch44_Juit/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../batch44_Juit/.idea/vcs.xml" beforeDir="false" />
