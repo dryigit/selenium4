@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="010ba43d-9bd9-492e-be17-783a1315b918" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../junit/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../junit/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../junit/.idea/vcs.xml" afterDir="false" />
@@ -116,6 +117,7 @@
       <change beforePath="$PROJECT_DIR$/../../Maven/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/src/test/java/day05_mavenProjectCreation/C01_FirstMavenClass.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/src/test/java/day05_mavenProjectCreation/C02_Xpath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day11/C02_WindowHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day11/C02_WindowHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../batch44_Juit/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../batch44_Juit/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../batch44_Juit/.idea/vcs.xml" beforeDir="false" />
@@ -195,18 +197,35 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
-  <component name="RunManager" selected="TestNG.C03_IFrame.iFrameTesti">
-    <configuration name="C02_BasicAuthentication.test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C01_WindowHandle.handleWindows">
+    <configuration name="C01_WindowHandle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day10.*" />
+          <option name="PATTERN" value="tests.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day10" />
-      <option name="MAIN_CLASS_NAME" value="tests.day10.C02_BasicAuthentication" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="tests.day11" />
+      <option name="MAIN_CLASS_NAME" value="tests.day11.C01_WindowHandle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_WindowHandle.handleWindows" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day11" />
+      <option name="MAIN_CLASS_NAME" value="tests.day11.C01_WindowHandle" />
+      <option name="METHOD_NAME" value="handleWindows" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -266,31 +285,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_iFrame.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day10" />
-      <option name="MAIN_CLASS_NAME" value="tests.day10.C03_iFrame" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C01_WindowHandle.handleWindows" />
+        <item itemvalue="TestNG.C01_WindowHandle" />
         <item itemvalue="TestNG.C03_IFrame.iFrameTesti" />
         <item itemvalue="TestNG.C03_IFrame" />
         <item itemvalue="TestNG.C03_iFrame" />
-        <item itemvalue="TestNG.C03_iFrame.test" />
-        <item itemvalue="TestNG.C02_BasicAuthentication.test" />
       </list>
     </recent_temporary>
   </component>
@@ -309,5 +310,20 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day11/C01_WindowHandle.java</url>
+          <line>23</line>
+          <properties class="tests.day11.C01_WindowHandle" method="handleWindows">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
