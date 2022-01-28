@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import java.time.Duration;
-public class TestBase {
+public abstract class TestBase {
 
 protected WebDriver driver;
 
@@ -16,9 +16,9 @@ public void setUp(){
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 }
-@AfterClass
-public void tearDown(){
-	driver.quit();
-}
 
+@AfterClass
+public void teardown(){
+	//driver.close();
+}
 }

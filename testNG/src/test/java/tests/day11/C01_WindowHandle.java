@@ -79,7 +79,7 @@ public void handleWindows() throws InterruptedException {
 
 @AfterClass
 public void tearDown(){
-	driver.quit();
+	//driver.quit();
 }
 
 }
