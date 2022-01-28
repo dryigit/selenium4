@@ -196,7 +196,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
-  <component name="RunManager" selected="TestNG.C04_DragAndDrop.test">
+  <component name="RunManager" selected="TestNG.C05_KeyboardActions.keyboardActions">
     <configuration name="C02_MouseActions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
@@ -208,24 +208,6 @@
       <option name="PACKAGE_NAME" value="tests.day12" />
       <option name="MAIN_CLASS_NAME" value="tests.day12.C02_MouseActions" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_MouseActions.amazonList" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day12" />
-      <option name="MAIN_CLASS_NAME" value="tests.day12.C02_MouseActions" />
-      <option name="METHOD_NAME" value="amazonList" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -285,13 +267,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C05_KeyboardActions.keyboardActions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.C05_KeyboardActions" />
+      <option name="METHOD_NAME" value="keyboardActions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C05_KeyboardActions.keyboardActions" />
         <item itemvalue="TestNG.C04_DragAndDrop.test" />
         <item itemvalue="TestNG.C03_MouseActions" />
         <item itemvalue="TestNG.C03_MouseActions.mouseActions" />
         <item itemvalue="TestNG.C02_MouseActions" />
-        <item itemvalue="TestNG.C02_MouseActions.amazonList" />
       </list>
     </recent_temporary>
   </component>
