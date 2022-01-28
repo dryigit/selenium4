@@ -196,24 +196,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
-  <component name="RunManager" selected="TestNG.C03_MouseActions">
-    <configuration name="C01_WindowHandle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day11" />
-      <option name="MAIN_CLASS_NAME" value="tests.day11.C01_WindowHandle" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C04_DragAndDrop.test">
     <configuration name="C02_MouseActions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
@@ -284,13 +267,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C04_DragAndDrop.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.C04_DragAndDrop" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C04_DragAndDrop.test" />
         <item itemvalue="TestNG.C03_MouseActions" />
         <item itemvalue="TestNG.C03_MouseActions.mouseActions" />
         <item itemvalue="TestNG.C02_MouseActions" />
         <item itemvalue="TestNG.C02_MouseActions.amazonList" />
-        <item itemvalue="TestNG.C01_WindowHandle" />
       </list>
     </recent_temporary>
   </component>
