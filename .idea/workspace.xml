@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d368422-d343-4b44-aea1-0b4d02db0906" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/junit/src/test/java/practice/Exercise3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit/target/test-classes/practice/RelativeLocatorPracticeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit/target/test-classes/practice/RelativeLocatorPracticeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testNG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testNG/src/test/java/tests/day11/C01_WindowHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/testNG/src/test/java/tests/day11/C01_WindowHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testNG/target/test-classes/tests/day11/C01_WindowHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/testNG/target/test-classes/tests/day11/C01_WindowHandle.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

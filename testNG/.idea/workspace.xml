@@ -196,7 +196,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
-  <component name="RunManager" selected="TestNG.C02_WindowHandle.handleWindows">
+  <component name="RunManager" selected="TestNG.C03_TestBase.testC01">
     <configuration name="C01_WindowHandle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
@@ -250,23 +250,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_IFrame" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day10" />
-      <option name="MAIN_CLASS_NAME" value="tests.day10.C03_IFrame" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="C03_IFrame.iFrameTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
@@ -285,13 +268,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C03_TestBase.testC01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day11" />
+      <option name="MAIN_CLASS_NAME" value="tests.day11.C03_TestBase" />
+      <option name="METHOD_NAME" value="testC01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C03_TestBase.testC01" />
         <item itemvalue="TestNG.C02_WindowHandle.handleWindows" />
         <item itemvalue="TestNG.C01_WindowHandle.handleWindows" />
         <item itemvalue="TestNG.C01_WindowHandle" />
         <item itemvalue="TestNG.C03_IFrame.iFrameTesti" />
-        <item itemvalue="TestNG.C03_IFrame" />
       </list>
     </recent_temporary>
   </component>
