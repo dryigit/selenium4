@@ -15,30 +15,29 @@ public class C03_MouseActions extends TestBase {
 
 @Test
 public void mouseActions(){
-	//       2- https://the-internet.herokuapp.com/context_menu sitesine gidelim
+	// go to https://the-internet.herokuapp.com/context_menu
 	driver.get("https://the-internet.herokuapp.com/context_menu");
 	
-	//       		3- Cizili alan uzerinde sag click yapalim
+	//Let's right click on the drawn area
 	
 	Actions actions=new Actions(driver);
 	WebElement spot=driver.findElement(By.xpath("//div[@id='hot-spot']"));
 	actions.contextClick(spot).perform();
 	
-	//       4- Alert’te cikan yazinin “You selected a context menu” oldugunu
-//       test edelim.
+	// Let's test that the text in Alert is "You selected a context menu".
 	driver.switchTo().alert();
 	String actualtext=driver.switchTo().alert().getText();
 	String expectedText="You selected a context menu";
 	Assert.assertEquals(actualtext, expectedText);
 	
-	//       		5- Tamam diyerek alert’I kapatalim
+	// click ok and close the alert
 	driver.switchTo().alert().accept();
 	
-	//       6- Elemental Selenium linkine tiklayalim
+	// click on Elemental Selenium link
 	String firstPageWindowHandleValue=driver.getWindowHandle();
 	driver.findElement(By.xpath("//a[text()='Elemental Selenium']")).click();
 	
-	//       7- Acilan sayfada h1 taginda “Elemental Selenium” yazdigini test edelim
+	// Let's test that "Elemental Selenium" is written in the h1 tag on the page that opens.
 	String secondPageHandleValue="";
 	Set<String> handleSet=driver.getWindowHandles();
 	for(String each:handleSet){
