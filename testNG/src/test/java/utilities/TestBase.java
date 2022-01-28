@@ -19,6 +19,6 @@ public void setUp(){
 
 @AfterClass
 public void teardown(){
-	//driver.close();
+	driver.close();
 }
 }

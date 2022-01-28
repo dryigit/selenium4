@@ -16,21 +16,20 @@ public class C02_MouseActions extends TestBase {
 
 @Test
 public void amazonList() throws InterruptedException {
-	//amazon anasayfaya gidin
+	//go to amazon page
 	driver.get("https://www.amazon.com");
 	
-	//sağ üstte hello sign in menüsünün üzerinde durup açın
+	//hover over the hello sign in menu in the top right and open it
 	Actions actions=new Actions(driver);
 	WebElement signIn = driver.findElement(By.xpath("(//a[@class='nav-a nav-a-2   nav-progressive-attribute'])[1]"));
 	actions.moveToElement(signIn).perform();
-	//driver.findElement(By.xpath("//span[@class='a-button a-spacing-top-base a-button-base glow-toaster-button glow-toaster-button-dismiss']")).click();
 	
-	//açılan menüde new list linkine tıklayın
+	//Click on the new list link in the drop-down menu
 	
 	WebElement listElement=driver.findElement(By.xpath("(//span[@class='nav-text'])[1]"));
 	actions.click(listElement).perform();
 	
-	//new list sayfasının açıldığını test edin
+	//Test that the new list page opens
 	
 	String actualTitle= driver.getTitle();
 	String searchedText="Your List";

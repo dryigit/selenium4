@@ -196,7 +196,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
-  <component name="RunManager" selected="TestNG.C02_MouseActions">
+  <component name="RunManager" selected="TestNG.C03_MouseActions">
     <configuration name="C01_WindowHandle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
@@ -249,35 +249,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_WindowHandle.handleWindows" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_MouseActions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day11.*" />
+          <option name="PATTERN" value="tests.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day11" />
-      <option name="MAIN_CLASS_NAME" value="tests.day11.C02_WindowHandle" />
-      <option name="METHOD_NAME" value="handleWindows" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.C03_MouseActions" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_TestBase.testC01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_MouseActions.mouseActions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day11.*" />
+          <option name="PATTERN" value="tests.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day11" />
-      <option name="MAIN_CLASS_NAME" value="tests.day11.C03_TestBase" />
-      <option name="METHOD_NAME" value="testC01" />
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.C03_MouseActions" />
+      <option name="METHOD_NAME" value="mouseActions" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -287,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C03_MouseActions" />
+        <item itemvalue="TestNG.C03_MouseActions.mouseActions" />
         <item itemvalue="TestNG.C02_MouseActions" />
         <item itemvalue="TestNG.C02_MouseActions.amazonList" />
         <item itemvalue="TestNG.C01_WindowHandle" />
-        <item itemvalue="TestNG.C03_TestBase.testC01" />
-        <item itemvalue="TestNG.C02_WindowHandle.handleWindows" />
       </list>
     </recent_temporary>
   </component>
@@ -310,5 +309,16 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day12/C03_MouseActions.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
