@@ -1,6 +1,7 @@
 package practice;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -48,5 +49,10 @@ public void click100timesTest(){
 	
 	List<WebElement>deleteButtonList= driver.findElements(By.xpath("//button[text()='Delete']"));
 	System.out.println("The remaining number of Delete buttons is " + deleteButtonList.size());
+}
+
+@AfterClass
+public void teardown(){
+	driver.close();
 }
 }
