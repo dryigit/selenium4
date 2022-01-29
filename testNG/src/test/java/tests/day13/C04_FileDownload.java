@@ -10,12 +10,9 @@ import java.nio.file.Paths;
 
 public class C04_FileDownload extends TestBase {
 
-//   2. Iki tane metod oluşturun : isExist( ) ve downloadTest( )
-
-
 @Test
 public void isExist(){
-//   4. Ardından isExist( )  methodunda dosyanın başarıyla indirilip indirilmediğini test edelim
+//   4. Then, let's test whether the file was downloaded successfully in the isExist( ) method.
 	String downloadedFile=System.getProperty("user.home") + "/Downloads/download.png";
 	Assert.assertTrue(Files.exists(Paths.get(downloadedFile)));
 
@@ -23,11 +20,11 @@ public void isExist(){
 @Test
 public void downloadTest() throws InterruptedException {
 	
-	//   3. downloadTest ( ) metodunun icinde aşağıdaki testi yapalim:
-	//   - https://the-internet.herokuapp.com/download adresine gidelim.
+	//go to https://the-internet.herokuapp.com/download
 	driver.get("https://the-internet.herokuapp.com/download");
 	
-//  - download.png dosyasını indirelim
+	
+//  - Download download.png file
 	driver.findElement(By.xpath("//a[text()='download.png']")).click();
 	Thread.sleep(3000);
 
