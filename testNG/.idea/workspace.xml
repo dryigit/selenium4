@@ -196,8 +196,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
-  <component name="RunManager" selected="TestNG.C01_KeyboardActions.test">
-    <configuration name="C01_KeyboardActions" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C05_FileUpload.test">
+    <configuration name="C03_FileExistTest.fileExisttest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
@@ -206,25 +206,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.C01_KeyboardActions" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_KeyboardActions.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.C01_KeyboardActions" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.C03_FileExistTest" />
+      <option name="METHOD_NAME" value="fileExisttest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -232,42 +215,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_FacebookSignUp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day12" />
-      <option name="MAIN_CLASS_NAME" value="tests.day12.C06_FacebookSignUp" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C06_FacebookSignUp.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day12" />
-      <option name="MAIN_CLASS_NAME" value="tests.day12.C06_FacebookSignUp" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise01.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_FileDownload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
@@ -276,7 +224,60 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.Exercise01" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.C04_FileDownload" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_FileDownload.downloadTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.C04_FileDownload" />
+      <option name="METHOD_NAME" value="downloadTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_FileDownload.isExist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.C04_FileDownload" />
+      <option name="METHOD_NAME" value="isExist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05_FileUpload.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.C05_FileUpload" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -287,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C01_KeyboardActions.test" />
-        <item itemvalue="TestNG.C01_KeyboardActions" />
-        <item itemvalue="TestNG.Exercise01.test" />
-        <item itemvalue="TestNG.C06_FacebookSignUp" />
-        <item itemvalue="TestNG.C06_FacebookSignUp.test" />
+        <item itemvalue="TestNG.C05_FileUpload.test" />
+        <item itemvalue="TestNG.C04_FileDownload.isExist" />
+        <item itemvalue="TestNG.C04_FileDownload" />
+        <item itemvalue="TestNG.C04_FileDownload.downloadTest" />
+        <item itemvalue="TestNG.C03_FileExistTest.fileExisttest" />
       </list>
     </recent_temporary>
   </component>
@@ -338,6 +339,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/day13/Exercise01.java</url>
           <line>20</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day13/C05_FileUpload.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/tests/day12/C06_FacebookSignUp.java</url>
