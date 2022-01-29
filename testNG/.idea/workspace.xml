@@ -196,36 +196,35 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
-  <component name="RunManager" selected="TestNG.Exercise01.test">
-    <configuration name="C04_DragAndDrop.test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C01_KeyboardActions.test">
+    <configuration name="C01_KeyboardActions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day12.*" />
+          <option name="PATTERN" value="tests.day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day12" />
-      <option name="MAIN_CLASS_NAME" value="tests.day12.C04_DragAndDrop" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.C01_KeyboardActions" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_KeyboardActions.keyboardActions" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_KeyboardActions.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day12.*" />
+          <option name="PATTERN" value="tests.day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day12" />
-      <option name="MAIN_CLASS_NAME" value="tests.day12.C05_KeyboardActions" />
-      <option name="METHOD_NAME" value="keyboardActions" />
+      <option name="PACKAGE_NAME" value="tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.C01_KeyboardActions" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -288,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C01_KeyboardActions.test" />
+        <item itemvalue="TestNG.C01_KeyboardActions" />
         <item itemvalue="TestNG.Exercise01.test" />
         <item itemvalue="TestNG.C06_FacebookSignUp" />
         <item itemvalue="TestNG.C06_FacebookSignUp.test" />
-        <item itemvalue="TestNG.C05_KeyboardActions.keyboardActions" />
-        <item itemvalue="TestNG.C04_DragAndDrop.test" />
       </list>
     </recent_temporary>
   </component>
@@ -334,6 +333,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/day13/Exercise01.java</url>
           <line>14</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day13/Exercise01.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/tests/day12/C06_FacebookSignUp.java</url>

@@ -45,10 +45,6 @@ public void test() throws InterruptedException {
 	for(WebElement each :birthdayYear ){
 		System.out.print(each.getText() + ", ");
 	}
-	
-	
 }
-	
-
 }
 
