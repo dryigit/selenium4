@@ -196,35 +196,17 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
-  <component name="RunManager" selected="TestNG.C05_FileUpload.test">
-    <configuration name="C03_FileExistTest.fileExisttest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Q4.sauceDemotest1">
+    <configuration name="Q2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day13.*" />
+          <option name="PATTERN" value="tests.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.C03_FileExistTest" />
-      <option name="METHOD_NAME" value="fileExisttest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_FileDownload" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.C04_FileDownload" />
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.Q2" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -232,17 +214,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_FileDownload.downloadTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Q3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day13.*" />
+          <option name="PATTERN" value="tests.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.C04_FileDownload" />
-      <option name="METHOD_NAME" value="downloadTest" />
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.Q3" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q3.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.Q3" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -250,17 +249,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_FileDownload.isExist" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Q4.sauceDemotest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day13.*" />
+          <option name="PATTERN" value="tests.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.C04_FileDownload" />
-      <option name="METHOD_NAME" value="isExist" />
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.Q4" />
+      <option name="METHOD_NAME" value="sauceDemotest1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -268,16 +267,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_FileUpload.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Q4.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day13.*" />
+          <option name="PATTERN" value="tests.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.C05_FileUpload" />
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.Q4" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -288,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C05_FileUpload.test" />
-        <item itemvalue="TestNG.C04_FileDownload.isExist" />
-        <item itemvalue="TestNG.C04_FileDownload" />
-        <item itemvalue="TestNG.C04_FileDownload.downloadTest" />
-        <item itemvalue="TestNG.C03_FileExistTest.fileExisttest" />
+        <item itemvalue="TestNG.Q4.sauceDemotest1" />
+        <item itemvalue="TestNG.Q4.test" />
+        <item itemvalue="TestNG.Q3.test" />
+        <item itemvalue="TestNG.Q3" />
+        <item itemvalue="TestNG.Q2" />
       </list>
     </recent_temporary>
   </component>
@@ -362,6 +361,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day13/C06_synchronization.java</url>
+          <line>11</line>
+          <properties class="tests.day13.C06_synchronization" method="test">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
