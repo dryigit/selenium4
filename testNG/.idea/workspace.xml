@@ -22,6 +22,7 @@
       <change afterPath="$PROJECT_DIR$/../junit/src/test/java/day07_assertions/DropDownTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../selenium4/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../selenium4/src/test/java/day01/C01_IlkClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_ScreenShots/allpage_220201103513.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/.idea/vcs.xml" beforeDir="false" />
@@ -70,7 +71,9 @@
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="24B96lkyTTQete6t9TPvQgnWYvF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -80,6 +83,7 @@
     <option name="showURL" value="false" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -88,35 +92,17 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
-  <component name="RunManager" selected="TestNG.Q5">
-    <configuration name="C03_CookiesAutomation.testCookiesAutomation" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C03_ScreenShotFolder">
+    <configuration name="C01_ScreenShot" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
+          <option name="PATTERN" value="tests.day15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.C03_CookiesAutomation" />
-      <option name="METHOD_NAME" value="testCookiesAutomation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_Screenshot" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.C04_Screenshot" />
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C01_ScreenShot" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -124,17 +110,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_Screenshot.screenshot" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_ScreenShotWebElement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
+          <option name="PATTERN" value="tests.day15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.C04_Screenshot" />
-      <option name="METHOD_NAME" value="screenshot" />
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C02_ScreenShotWebElement" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_ScreenShotFolder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C03_ScreenShotFolder" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_ScreenShotFolder.java" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C03_ScreenShotFolder" />
+      <option name="METHOD_NAME" value="java" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -159,31 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q5.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice.Q5" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C03_ScreenShotFolder" />
+        <item itemvalue="TestNG.C03_ScreenShotFolder.java" />
+        <item itemvalue="TestNG.C02_ScreenShotWebElement" />
+        <item itemvalue="TestNG.C01_ScreenShot" />
         <item itemvalue="TestNG.Q5" />
-        <item itemvalue="TestNG.Q5.test" />
-        <item itemvalue="TestNG.C04_Screenshot.screenshot" />
-        <item itemvalue="TestNG.C04_Screenshot" />
-        <item itemvalue="TestNG.C03_CookiesAutomation.testCookiesAutomation" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +209,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
@@ -245,11 +248,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/day13/C05_FileUpload.java</url>
           <line>13</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/day14/C04_Screenshot.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/tests/day12/C06_FacebookSignUp.java</url>
