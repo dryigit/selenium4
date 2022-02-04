@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ad80846-3eb5-4b31-9001-679ca4c21309" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day17/C01_HotelMyCampNegativeLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day17/C02_PropertiesFirstClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day17/C03_UsinfWrongUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day17/C04_SingletonPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C01_E2ETesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/smokeTest/NegativeLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/smokeTest/PositiveLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HMCWebTablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C02_WebTables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HotelMyCamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HotelMyCamp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HotelMyCamp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/HotelMyCamp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day18/C01_E2ETesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day18/C01_E2ETesting.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../junit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/target/test-classes/tests/day15/C03_ScreenShotFolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/target/test-classes/tests/day15/C03_ScreenShotFolder.class" afterDir="false" />
@@ -62,7 +53,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="TestNG.C01_E2ETesting">
+  <component name="RunManager" selected="TestNG.C02_WebTables.loginT">
     <configuration name="C01_E2ETesting" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
@@ -91,6 +82,24 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.day18.C01_E2ETesting" />
       <option name="METHOD_NAME" value="createHotel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_WebTables.loginT" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch44POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day18" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18.C02_WebTables" />
+      <option name="METHOD_NAME" value="loginT" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,31 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeLoginTest.wrongUsername" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.Batch44POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.smokeTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.smokeTest" />
-      <option name="MAIN_CLASS_NAME" value="tests.smokeTest.NegativeLoginTest" />
-      <option name="METHOD_NAME" value="wrongUsername" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C02_WebTables.loginT" />
         <item itemvalue="TestNG.C01_E2ETesting" />
+        <item itemvalue="TestNG.C01_E2ETesting.createHotel" />
         <item itemvalue="TestNG.NegativeLoginTest" />
         <item itemvalue="TestNG.NegativeLoginTest.wrongUserandPassword" />
-        <item itemvalue="TestNG.NegativeLoginTest.wrongUsername" />
-        <item itemvalue="TestNG.C01_E2ETesting.createHotel" />
       </list>
     </recent_temporary>
   </component>
