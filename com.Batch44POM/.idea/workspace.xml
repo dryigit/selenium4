@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ad80846-3eb5-4b31-9001-679ca4c21309" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DemoqaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day19/C01_WebTableDynamicLocates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day19/C02_WebTableDemoQa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day19/H01_Q1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HMCWebTablePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HMCWebTablePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HotelMyCamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HotelMyCamp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day18/C02_WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C02_WebTables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HMCWebTablePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/HMCWebTablePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day18/C02_WebTables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day18/C02_WebTables.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../junit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/target/test-classes/tests/day15/C03_ScreenShotFolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/target/test-classes/tests/day15/C03_ScreenShotFolder.class" afterDir="false" />
@@ -66,7 +58,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="TestNG.C02_WebTableDemoQa">
+  <component name="RunManager" selected="TestNG.H01_Q1.test">
     <configuration name="C01_WebTableDynamicLocates" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
@@ -78,42 +70,6 @@
       <option name="PACKAGE_NAME" value="tests.day19" />
       <option name="MAIN_CLASS_NAME" value="tests.day19.C01_WebTableDynamicLocates" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_WebTableDynamicLocates.hucreGetirTesting" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.Batch44POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day19" />
-      <option name="MAIN_CLASS_NAME" value="tests.day19.C01_WebTableDynamicLocates" />
-      <option name="METHOD_NAME" value="hucreGetirTesting" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_WebTableDynamicLocates.sutunYazdirTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.Batch44POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day19" />
-      <option name="MAIN_CLASS_NAME" value="tests.day19.C01_WebTableDynamicLocates" />
-      <option name="METHOD_NAME" value="sutunYazdirTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -155,13 +111,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="H01_Q1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch44POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day19" />
+      <option name="MAIN_CLASS_NAME" value="tests.day19.H01_Q1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="H01_Q1.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch44POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day19" />
+      <option name="MAIN_CLASS_NAME" value="tests.day19.H01_Q1" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.H01_Q1.test" />
+        <item itemvalue="TestNG.H01_Q1" />
         <item itemvalue="TestNG.C02_WebTableDemoQa" />
         <item itemvalue="TestNG.C02_WebTableDemoQa.demoQaTest" />
         <item itemvalue="TestNG.C01_WebTableDynamicLocates" />
-        <item itemvalue="TestNG.C01_WebTableDynamicLocates.sutunYazdirTesti" />
-        <item itemvalue="TestNG.C01_WebTableDynamicLocates.hucreGetirTesting" />
       </list>
     </recent_temporary>
   </component>
@@ -175,5 +166,16 @@
       <updated>1643750048055</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day19/H01_Q1.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
