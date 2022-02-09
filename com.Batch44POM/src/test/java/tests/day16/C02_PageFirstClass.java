@@ -12,7 +12,7 @@ public class C02_PageFirstClass {
 //Driver class'i için static yöntemi kullanıyoruz.
 //page Class'ları için ise obje üzerinden kullanılması tercih edilmiştir.
 
-@Test
+@Test (groups={"miniRegression", "smoke"})
 public void test01(){
 	//go to amazon
 	Driver.getDriver().get("https://amazon.com");

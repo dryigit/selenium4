@@ -5,8 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ad80846-3eb5-4b31-9001-679ca4c21309" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day19/H01_Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/belirlenenClasslariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/belirlenenPaketleriCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/belirliGruplariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/belirliTestMetodlariniCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/raporCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day21/C01_WindowHandleReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22/C01_TestNGReports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22/C02_FacebookTesti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tumPaketleriCalistima.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Rapor20220209104856.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day16/C02_PageFirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day16/C02_PageFirstClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day16/C03_FacebookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day16/C03_FacebookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day16/C04_HotelMyCampPositivelogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day16/C04_HotelMyCampPositivelogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day18/C02_WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C02_WebTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day19/C02_WebTableDemoQa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day19/C02_WebTableDemoQa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day16/C02_PageFirstClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day16/C02_PageFirstClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day16/C03_FacebookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day16/C03_FacebookTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day16/C04_HotelMyCampPositivelogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day16/C04_HotelMyCampPositivelogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day18/C02_WebTables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day18/C02_WebTables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day19/C02_WebTableDemoQa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day19/C02_WebTableDemoQa.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../junit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/target/test-classes/tests/day15/C03_ScreenShotFolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/target/test-classes/tests/day15/C03_ScreenShotFolder.class" afterDir="false" />
@@ -39,7 +61,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24Wcz2HQiwuhTVn2RCzNvKXDtdW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -49,6 +73,7 @@
     <option name="showURL" value="false" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -58,17 +83,28 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="TestNG.H01_Q1.test">
-    <configuration name="C01_WebTableDynamicLocates" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/raporCalistirma.xml">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_TestNGReports" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day19.*" />
+          <option name="PATTERN" value="tests.day22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day19" />
-      <option name="MAIN_CLASS_NAME" value="tests.day19.C01_WebTableDynamicLocates" />
+      <option name="PACKAGE_NAME" value="tests.day22" />
+      <option name="MAIN_CLASS_NAME" value="tests.day22.C01_TestNGReports" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -76,34 +112,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_WebTableDemoQa" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_TestNGReports.windowHandleReusableWindow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day19.*" />
+          <option name="PATTERN" value="tests.day22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day19" />
-      <option name="MAIN_CLASS_NAME" value="tests.day19.C02_WebTableDemoQa" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_WebTableDemoQa.demoQaTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.Batch44POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day19" />
-      <option name="MAIN_CLASS_NAME" value="tests.day19.C02_WebTableDemoQa" />
-      <option name="METHOD_NAME" value="demoQaTest" />
+      <option name="PACKAGE_NAME" value="tests.day22" />
+      <option name="MAIN_CLASS_NAME" value="tests.day22.C01_TestNGReports" />
+      <option name="METHOD_NAME" value="windowHandleReusableWindow" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,16 +130,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H01_Q1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_WindowHandleReusableMethods.windowHandleReusableWindow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day19.*" />
+          <option name="PATTERN" value="tests.day21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day19" />
-      <option name="MAIN_CLASS_NAME" value="tests.day19.H01_Q1" />
+      <option name="PACKAGE_NAME" value="tests.day21" />
+      <option name="MAIN_CLASS_NAME" value="tests.day21.C01_WindowHandleReusableMethods" />
+      <option name="METHOD_NAME" value="windowHandleReusableWindow" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_FacebookTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch44POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day22" />
+      <option name="MAIN_CLASS_NAME" value="tests.day22.C02_FacebookTesti" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -128,18 +165,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H01_Q1.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/raporCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day19" />
-      <option name="MAIN_CLASS_NAME" value="tests.day19.H01_Q1" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/raporCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.H01_Q1.test" />
-        <item itemvalue="TestNG.H01_Q1" />
-        <item itemvalue="TestNG.C02_WebTableDemoQa" />
-        <item itemvalue="TestNG.C02_WebTableDemoQa.demoQaTest" />
-        <item itemvalue="TestNG.C01_WebTableDynamicLocates" />
+        <item itemvalue="TestNG./Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/raporCalistirma.xml" />
+        <item itemvalue="TestNG.C02_FacebookTesti" />
+        <item itemvalue="TestNG.C01_TestNGReports.windowHandleReusableWindow" />
+        <item itemvalue="TestNG.C01_TestNGReports" />
+        <item itemvalue="TestNG.C01_WindowHandleReusableMethods.windowHandleReusableWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +196,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -174,6 +206,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/day19/H01_Q1.java</url>
           <line>12</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day21/C01_WindowHandleReusableMethods.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

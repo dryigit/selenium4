@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="belirli classlar">
+    <test name="classlar">
+        <classes>
+            <!-- yorum yazmak için -->
+            <class name="tests.day19.C02_WebTableDemoQa"></class>
+            <class name="tests.day18.C02_WebTables"></class>
+            <class name="tests.day17.C02_PropertiesFirstClass"></class>
+        </classes>
+    </test>
+</suite>

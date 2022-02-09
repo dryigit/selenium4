@@ -8,7 +8,7 @@ import utilities.Driver;
 public class C04_HotelMyCampPositivelogin {
 
 HotelMyCamp hotelMyCamp=new HotelMyCamp();
-@Test
+@Test (groups={"miniRegression", "smoke"})
 public void positiveLoginTest() throws InterruptedException {
 // go to https://www. hotelmycamp.com/
 	Driver.getDriver().get("https://www.hotelmycamp.com");
