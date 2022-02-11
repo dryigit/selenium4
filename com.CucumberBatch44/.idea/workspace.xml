@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c99ca338-2400-458a-a0ae-8d373d0f0e89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HMCPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HotelMyCampStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1003_parametreKullanimi.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1004_parametreileIstenenSayfayaGitme.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1005_PositiveloginTesti.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1007_ScenarioOutlineileAmazonSearch.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.Batch44POM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.Batch44POM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AmazonPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AmazonPages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/AmazonStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/AmazonStepDefinitions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../junit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/target/test-classes/tests/day15/C03_ScreenShotFolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/target/test-classes/tests/day15/C03_ScreenShotFolder.class" afterDir="false" />
@@ -69,7 +57,7 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: US1006_NegativeLoginTesti">
+  <component name="RunManager" selected="Cucumber Java.Feature: US1007_ScenarioOutlineileAmazonSearch">
     <configuration name="Feature: US1006_NegativeLoginTesti" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" />
@@ -89,35 +77,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC08 Positive login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: US1007_ScenarioOutlineileAmazonSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1005_PositiveloginTesti.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1007_ScenarioOutlineileAmazonSearch.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.CucumberBatch44" />
-      <option name="NAME_FILTER" value="^TC08 Positive login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC08 Positive login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC08 Positive login" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC09 yanlis username, dogru sifre ile giris yapilamaz" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" />
-      <option name="GLUE" value="stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="com.CucumberBatch44" />
-      <option name="NAME_FILTER" value="^TC09 yanlis username\, dogru sifre ile giris yapilamaz$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC09 yanlis username\, dogru sifre ile giris yapilamaz$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC09 yanlis username, dogru sifre ile giris yapilamaz" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US1007_ScenarioOutlineileAmazonSearch" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -169,13 +136,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: TC12 Amazonda bir listedeki tüm elementleri aratma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1007_ScenarioOutlineileAmazonSearch.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="com.CucumberBatch44" />
+      <option name="NAME_FILTER" value="^TC12 Amazonda bir listedeki tüm elementleri aratma$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC12 Amazonda bir listedeki tüm elementleri aratma$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC12 Amazonda bir listedeki tüm elementleri aratma" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: US1007_ScenarioOutlineileAmazonSearch" />
+        <item itemvalue="Cucumber Java.Scenario: TC12 Amazonda bir listedeki tüm elementleri aratma" />
         <item itemvalue="Cucumber Java.Feature: US1006_NegativeLoginTesti" />
         <item itemvalue="Cucumber Java.Scenario: TC11 yanlis username ve yanlis sifre giris yapilamaz" />
         <item itemvalue="Cucumber Java.Scenario: TC10 dogru username, yanlis sifre ile giris yapilamaz" />
-        <item itemvalue="Cucumber Java.Scenario: TC09 yanlis username, dogru sifre ile giris yapilamaz" />
-        <item itemvalue="Cucumber Java.Scenario: TC08 Positive login" />
       </list>
     </recent_temporary>
   </component>
