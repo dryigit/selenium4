@@ -4,7 +4,6 @@ Feature: US1007 Scenario outline ile amazon search
     Given kullanici "AmazonUrl" sayfasina gider
     Then "<aranacakEleman>" icin arama yapar
     And sonuclarin "<aranacakEleman>" icerdigini test eder
-    Then sayfayi kapatir
 
     Examples:
     |aranacakEleman|
