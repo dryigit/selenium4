@@ -5,30 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ad80846-3eb5-4b31-9001-679ca4c21309" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/belirlenenClasslariCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/belirlenenPaketleriCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/belirliGruplariCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/belirliTestMetodlariniCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/raporCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day21/C01_WindowHandleReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22/C01_TestNGReports.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22/C02_FacebookTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tumPaketleriCalistima.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Rapor20220209104856.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.CucumberBatch44/target/cucumber-reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/stepdefinitions/Hooks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day16/C02_PageFirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day16/C02_PageFirstClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day16/C03_FacebookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day16/C03_FacebookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day16/C04_HotelMyCampPositivelogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day16/C04_HotelMyCampPositivelogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day18/C02_WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C02_WebTables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day19/C02_WebTableDemoQa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day19/C02_WebTableDemoQa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day16/C02_PageFirstClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day16/C02_PageFirstClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day16/C03_FacebookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day16/C03_FacebookTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day16/C04_HotelMyCampPositivelogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day16/C04_HotelMyCampPositivelogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day18/C02_WebTables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day18/C02_WebTables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/day19/C02_WebTableDemoQa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/day19/C02_WebTableDemoQa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/resources/features/US1003_parametreKullanimi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/resources/features/US1003_parametreKullanimi.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/resources/features/US1011_WebUniversity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/resources/features/US1011_WebUniversity.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1003_parametreKullanimi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1003_parametreKullanimi.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1011_WebUniversity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1011_WebUniversity.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/runners/Runner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../junit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/target/test-classes/tests/day15/C03_ScreenShotFolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/target/test-classes/tests/day15/C03_ScreenShotFolder.class" afterDir="false" />
@@ -84,17 +71,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunManager" selected="TestNG./Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/raporCalistirma.xml">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="C01_TestNGReports" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
