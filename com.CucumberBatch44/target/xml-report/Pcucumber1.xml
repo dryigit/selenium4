@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="28.387">
+    <testcase classname="US1001_amazon_search" name="TC01_Amazon Search Testi" time="19.269">
+        <system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And iPhone icin arama yapar.................................................passed
+Then sonuclarin iPhone icerdigini test eder.................................passed
+Given kullanici amazon sayfasina gider......................................passed
+And tea pot icin arama yapar................................................passed
+Then sonuclarin tea pot icerdigini test eder................................passed
+Given kullanici amazon sayfasina gider......................................passed
+And flower icin arama yapar.................................................passed
+Then sonuclarin flower icerdigini test eder.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1003 parametre ile stepdefinition olusturmak" name="TC05_parametre kullanimi" time="8.866">
+        <failure message="" type="java.lang.AssertionError"><![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And "java" icin arama yapar.................................................passed
+Then sonuclarin "macbook" icerdigini test eder..............................failed
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.AmazonStepDefinitions.sonuclarin_icerdigini_test_eder(AmazonStepDefinitions.java:64)
+	at ✽.sonuclarin "macbook" icerdigini test eder(file:///Users/mfyigit/Documents/JAVA/Selenium4/com.CucumberBatch44/src/test/resources/features/US1003_parametreKullanimi.feature:7)
+]]></failure>
+    </testcase>
+</testsuite>

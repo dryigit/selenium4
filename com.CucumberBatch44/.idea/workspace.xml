@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c99ca338-2400-458a-a0ae-8d373d0f0e89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WebUniversityPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/WebUniversityStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1011_WebUniversity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.Batch44POM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.Batch44POM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/ParalelTestRunner1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/ParalelTestRunner1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/ParalelTestRunner2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/ParalelTestRunner2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1001_amazonsearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1001_amazonsearch.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1002_background.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1002_background.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1003_parametreKullanimi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1003_parametreKullanimi.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1011_WebUniversity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1011_WebUniversity.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../junit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/target/test-classes/tests/day15/C03_ScreenShotFolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/target/test-classes/tests/day15/C03_ScreenShotFolder.class" afterDir="false" />
@@ -38,7 +43,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
     <option name="showModules" value="false" />
@@ -52,14 +56,14 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: US1011_WebUniversity">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Feature: US1011_WebUniversity" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1011_WebUniversity.feature" />
@@ -154,10 +158,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: US1011_WebUniversity" />
         <item itemvalue="Cucumber Java.Scenario: TC16 Reusable mthod ile window handle" />
         <item itemvalue="Cucumber Java.Scenario: TC15 sonradan gmrünen elemanlar calismali" />
-        <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Scenario: TC14 yeni kayit ekleyebilmeli" />
       </list>
     </recent_temporary>
@@ -172,6 +176,17 @@
       <updated>1644438594119</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/runners/Runner.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
