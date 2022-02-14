@@ -5,17 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ad80846-3eb5-4b31-9001-679ca4c21309" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.CucumberBatch44/target/cucumber-reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/stepdefinitions/Hooks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paralelClassCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/java/runners/ParalelTestRunner1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/java/runners/ParalelTestRunner2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/java/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/resources/features/US1001_amazonsearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/resources/features/US1001_amazonsearch.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/resources/features/US1002_background.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/resources/features/US1002_background.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/resources/features/US1003_parametreKullanimi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/resources/features/US1003_parametreKullanimi.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/resources/features/US1011_WebUniversity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/src/test/resources/features/US1011_WebUniversity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1003_parametreKullanimi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1003_parametreKullanimi.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1011_WebUniversity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1011_WebUniversity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/runners/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/cucumber-reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1001_amazonsearch.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1002_background.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1003_parametreKullanimi.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1004_parametreileIstenenSayfayaGitme.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1005_PositiveloginTesti.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1006_NegativeLoginTesti.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1007_ScenarioOutlineileAmazonSearch.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1008_ScenarioOutlineIleNegativeLoginTest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1009_EditorKayit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1010_HerokuappAddElement.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/features/US1011_WebUniversity.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/pages/AmazonPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/pages/EditorPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/pages/HMCPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/pages/HerokuappPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/pages/WebUniversityPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/runners/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/stepdefinitions/AmazonStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/stepdefinitions/EditorStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/stepdefinitions/HerokuappStepDefinitons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/stepdefinitions/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/stepdefinitions/HotelMyCampStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/stepdefinitions/WebUniversityStepDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/utilities/ConfigReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/utilities/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/utilities/ReusableMethods$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/utilities/ReusableMethods$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../junit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/target/test-classes/tests/day15/C03_ScreenShotFolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/target/test-classes/tests/day15/C03_ScreenShotFolder.class" afterDir="false" />
@@ -70,7 +100,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="TestNG./Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/raporCalistirma.xml">
+  <component name="RunManager" selected="TestNG./Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/paralelClassCalistirma.xml">
     <configuration name="C01_TestNGReports" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
@@ -106,24 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_WindowHandleReusableMethods.windowHandleReusableWindow" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.Batch44POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day21" />
-      <option name="MAIN_CLASS_NAME" value="tests.day21.C01_WindowHandleReusableMethods" />
-      <option name="METHOD_NAME" value="windowHandleReusableWindow" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="C02_FacebookTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
@@ -135,6 +147,16 @@
       <option name="PACKAGE_NAME" value="tests.day22" />
       <option name="MAIN_CLASS_NAME" value="tests.day22.C02_FacebookTesti" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/paralelClassCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch44POM" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/paralelClassCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -153,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/paralelClassCalistirma.xml" />
         <item itemvalue="TestNG./Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/raporCalistirma.xml" />
         <item itemvalue="TestNG.C02_FacebookTesti" />
         <item itemvalue="TestNG.C01_TestNGReports.windowHandleReusableWindow" />
         <item itemvalue="TestNG.C01_TestNGReports" />
-        <item itemvalue="TestNG.C01_WindowHandleReusableMethods.windowHandleReusableWindow" />
       </list>
     </recent_temporary>
   </component>
