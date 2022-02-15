@@ -21,9 +21,11 @@ public static WebDriver getDriver(String browser){
 	//buraya parametre olarak yazdığımız browser sayesinde
 	//çoklu testler çalıştırılırken arada crossdriver'a yeni
 	//browser ataması yapabilmemize imkan tanıması içindir
+	browser = browser == null ? ConfigReader.getProperty("browser") : browser;
+	
 	
 	if(driver==null){
-		switch (ConfigReader.getProperty("browser")){
+		switch (browser){
 			case "chrome":
 				WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver();

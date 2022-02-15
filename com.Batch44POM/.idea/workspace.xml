@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ad80846-3eb5-4b31-9001-679ca4c21309" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cokluCalistirmaCrossBrowserParalel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cokluCalistirmaParalel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cokluCalistirmaSirali.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cokluCalistirmeCrossBrowser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/crossBrowserTests/C01_Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/crossBrowserTests/C02_BasicAuthetications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/crossBrowserTests/C03_Windowhandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/crossBrowserTests/C04_DragAndDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day27/C01_DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseCross.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/CrossDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/CrossDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.CucumberBatch44/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.CucumberBatch44/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../junit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../junit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testNG/.idea/workspace.xml" afterDir="false" />
@@ -61,17 +72,17 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="TestNG./Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/paralelClassCalistirma.xml">
-    <configuration name="C01_TestNGReports" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C01_DataProvider">
+    <configuration name="C01_DataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day22.*" />
+          <option name="PATTERN" value="tests.day27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day22" />
-      <option name="MAIN_CLASS_NAME" value="tests.day22.C01_TestNGReports" />
+      <option name="PACKAGE_NAME" value="tests.day27" />
+      <option name="MAIN_CLASS_NAME" value="tests.day27.C01_DataProvider" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -79,17 +90,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_TestNGReports.windowHandleReusableWindow" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_DataProvider.amazonSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day22.*" />
+          <option name="PATTERN" value="tests.day27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day22" />
-      <option name="MAIN_CLASS_NAME" value="tests.day22.C01_TestNGReports" />
-      <option name="METHOD_NAME" value="windowHandleReusableWindow" />
+      <option name="PACKAGE_NAME" value="tests.day27" />
+      <option name="MAIN_CLASS_NAME" value="tests.day27.C01_DataProvider" />
+      <option name="METHOD_NAME" value="amazonSearch" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -97,26 +108,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_FacebookTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/cokluCalistirmaCrossBrowserParalel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day22.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day22" />
-      <option name="MAIN_CLASS_NAME" value="tests.day22.C02_FacebookTesti" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/paralelClassCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.Batch44POM" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/paralelClassCalistirma.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/cokluCalistirmaCrossBrowserParalel.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -124,9 +118,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/raporCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/cokluCalistirmaSirali.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44POM" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/raporCalistirma.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/cokluCalistirmaSirali.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/cokluCalistirmeCrossBrowser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch44POM" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/cokluCalistirmeCrossBrowser.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -136,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/paralelClassCalistirma.xml" />
-        <item itemvalue="TestNG./Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/raporCalistirma.xml" />
-        <item itemvalue="TestNG.C02_FacebookTesti" />
-        <item itemvalue="TestNG.C01_TestNGReports.windowHandleReusableWindow" />
-        <item itemvalue="TestNG.C01_TestNGReports" />
+        <item itemvalue="TestNG.C01_DataProvider" />
+        <item itemvalue="TestNG.C01_DataProvider.amazonSearch" />
+        <item itemvalue="TestNG./Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/cokluCalistirmaCrossBrowserParalel.xml" />
+        <item itemvalue="TestNG./Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/cokluCalistirmeCrossBrowser.xml" />
+        <item itemvalue="TestNG./Users/mfyigit/Documents/JAVA/Selenium4/com.Batch44POM/src/cokluCalistirmaSirali.xml" />
       </list>
     </recent_temporary>
   </component>
