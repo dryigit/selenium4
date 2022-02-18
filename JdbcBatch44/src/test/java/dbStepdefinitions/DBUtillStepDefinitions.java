@@ -25,7 +25,7 @@ public void db_util_ile_tum_degerlerini_sira_numarasi_ile_yazdirir(String field)
 	DBUtils.getResultset().first();
 	int siraNo=1;
 	for (int i=1 ; i<satirSayisi ; i++){
-		System.out.println(siraNo + ".ci satirdaki fiyat: " + DBUtils.getResultset().getString(field));
+		System.out.println(siraNo + ".ci satirdaki "+ field +" "+ DBUtils.getResultset().getString(field));
 		DBUtils.getResultset().next();
 		siraNo++;
 	}
@@ -35,5 +35,12 @@ public void db_utill_ile_in_oldugunu_test_eder(Integer siraNo, String field, Int
 	DBUtils.getResultset().absolute(siraNo);
 	double actualPrice=DBUtils.getResultset().getDouble(field);
 	Assert.assertTrue(actualPrice==expectedPrice);
+}
+@Then("tHOTEL tablosunda IDHotel degeri {int} olan kaydin Email bilgisini {string} yapar")
+public void id_hotel_degeri_olan_kaydin_email_bilgisini_yapar(Integer IDHotel, String yeniEmail) {
+	//UPDATE Email FROM tHOTEL where IDHotel='1016';
+	String updateQuery="UPDATE tHOTEL  SET Email='"+yeniEmail+"'  WHERE IDHotel='"+IDHotel+"';";
+
+	DBUtils.executeQuery(updateQuery);
 }
 }
