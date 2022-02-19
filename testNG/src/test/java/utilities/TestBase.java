@@ -14,8 +14,6 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 
-import static jdk.jfr.internal.handlers.EventHandler.timestamp;
-
 
 public abstract class TestBase {
 

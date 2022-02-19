@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="010ba43d-9bd9-492e-be17-783a1315b918" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JdbcBatch44/target/test-classes/dbStepdefinitions/DBUtillStepDefinitions.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../junit/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../junit/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../junit/.idea/vcs.xml" afterDir="false" />
@@ -22,7 +23,12 @@
       <change afterPath="$PROJECT_DIR$/../junit/src/test/java/day07_assertions/DropDownTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../selenium4/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../selenium4/src/test/java/day01/C01_IlkClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_ScreenShots/allpage_220201103513.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_ScreenShots/allpage_220201103920.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_ScreenShots/allpage_220201103923.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_ScreenShots/allpage_220201103927.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_ScreenShots/allpage_220201104938.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_ScreenShots/allpage_220201104941.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_ScreenShots/allpage_220201104943.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maven/.idea/vcs.xml" beforeDir="false" />
@@ -92,8 +98,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
-  <component name="RunManager" selected="TestNG.C03_ScreenShotFolder">
-    <configuration name="C01_ScreenShot" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.practice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Q11">
+    <configuration name="C05_JsExecutorScrollIntoView.scroolJsExecutor" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
@@ -102,59 +113,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C01_ScreenShot" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_ScreenShotWebElement" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C02_ScreenShotWebElement" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_ScreenShotFolder" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C03_ScreenShotFolder" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_ScreenShotFolder.java" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C03_ScreenShotFolder" />
-      <option name="METHOD_NAME" value="java" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C05_JsExecutorScrollIntoView" />
+      <option name="METHOD_NAME" value="scroolJsExecutor" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,7 +122,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q5" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C05_jsExecuterScrollintoView" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C05_jsExecuterScrollintoView" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05_jsExecuterScrollintoView.scrooljsExecutor" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15.C05_jsExecuterScrollintoView" />
+      <option name="METHOD_NAME" value="scrooljsExecutor" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q11" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
@@ -171,8 +166,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice.Q5" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.Q11" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q11.amazonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.Q11" />
+      <option name="METHOD_NAME" value="amazonTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -181,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C03_ScreenShotFolder" />
-        <item itemvalue="TestNG.C03_ScreenShotFolder.java" />
-        <item itemvalue="TestNG.C02_ScreenShotWebElement" />
-        <item itemvalue="TestNG.C01_ScreenShot" />
-        <item itemvalue="TestNG.Q5" />
+        <item itemvalue="TestNG.Q11" />
+        <item itemvalue="TestNG.Q11.amazonTest" />
+        <item itemvalue="TestNG.C05_JsExecutorScrollIntoView.scroolJsExecutor" />
+        <item itemvalue="TestNG.C05_jsExecuterScrollintoView.scrooljsExecutor" />
+        <item itemvalue="TestNG.C05_jsExecuterScrollintoView" />
       </list>
     </recent_temporary>
   </component>
@@ -248,6 +261,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/day13/C05_FileUpload.java</url>
           <line>13</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day15/C01_ScreenShot.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/tests/day12/C06_FacebookSignUp.java</url>
