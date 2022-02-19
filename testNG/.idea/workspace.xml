@@ -103,61 +103,8 @@
       <recent name="tests.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Q11">
-    <configuration name="C05_JsExecutorScrollIntoView.scroolJsExecutor" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C05_JsExecutorScrollIntoView" />
-      <option name="METHOD_NAME" value="scroolJsExecutor" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C05_jsExecuterScrollintoView" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C05_jsExecuterScrollintoView" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C05_jsExecuterScrollintoView.scrooljsExecutor" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15.C05_jsExecuterScrollintoView" />
-      <option name="METHOD_NAME" value="scrooljsExecutor" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q11" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Q13">
+    <configuration name="Q11.gittiGidiyorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
@@ -167,14 +114,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests.practice" />
       <option name="MAIN_CLASS_NAME" value="tests.practice.Q11" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="gittiGidiyorTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q11.amazonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Q12" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
@@ -183,8 +131,60 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice.Q11" />
-      <option name="METHOD_NAME" value="amazonTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.Q12" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q12.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.Q12" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q13" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.Q13" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q13.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.practice" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice.Q13" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -194,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Q11" />
-        <item itemvalue="TestNG.Q11.amazonTest" />
-        <item itemvalue="TestNG.C05_JsExecutorScrollIntoView.scroolJsExecutor" />
-        <item itemvalue="TestNG.C05_jsExecuterScrollintoView.scrooljsExecutor" />
-        <item itemvalue="TestNG.C05_jsExecuterScrollintoView" />
+        <item itemvalue="TestNG.Q13" />
+        <item itemvalue="TestNG.Q12" />
+        <item itemvalue="TestNG.Q13.test" />
+        <item itemvalue="TestNG.Q12.test" />
+        <item itemvalue="TestNG.Q11.gittiGidiyorTest" />
       </list>
     </recent_temporary>
   </component>
