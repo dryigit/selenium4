@@ -32,5 +32,9 @@ public void bodyTest(){
 	response.then().assertThat().body("data", Matchers.hasSize(24),
 			"data.employee_name", Matchers.hasItem("Ashton Cox"),
 			"data.employee_age", Matchers.hasItems(21,61,23));
+	
+	// adedi karsilastırılacaka = Matchers.hasSizekullanılır
+// bir deger aranacaksa = Matchers.hasItem kullanılır
+// birden fazla deger aranacaksa = Matchers.hasItems kullanılır
 }
 }
