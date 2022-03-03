@@ -4,6 +4,7 @@ import base_url.DummyBaseUrl;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.hamcrest.Matchers;
+import org.junit.Assert;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
@@ -34,6 +35,9 @@ response.then().assertThat().body("data.employee_name", equalTo("Quinn Flynn"),
 	System.out.println("salary is " + json.getInt("data.employee_salary"));
 	System.out.println("employee age is " + json.getInt("data.employee_age"));
 	
+	Assert.assertEquals("Quinn Flynn",json.getString("data.employee_name"));
+	Assert.assertEquals(342000,json.getInt("data.employee_salary"));
+	Assert.assertEquals(22,json.getInt("data.employee_age"));
 	
 }
 }
