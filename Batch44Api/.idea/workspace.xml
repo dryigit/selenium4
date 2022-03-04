@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41480fbe-2100-4416-9379-548cd928c9ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_url/GMIBankBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_http_request/GetRequest11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_http_request/GetRequest12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_http_request/GetRequest13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_http_request/GetRequest14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Authentication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AutomationExcercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutomationExcercise/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AutomationExcercise/src/test/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutomationExcercise/src/test/java/pages/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/get_http_request/GetRequest09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_http_request/GetRequest09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HMCTeamProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HMCTeamProject/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JdbcBatch44/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JdbcBatch44/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.Batch44POM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.Batch44POM/.idea/workspace.xml" afterDir="false" />
@@ -52,8 +58,21 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.GetRequest09.test01">
-    <configuration name="GetRequest05.bodyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.GetRequest14">
+    <configuration name="GetRequest14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="get_http_request.GetRequest14" />
+      <module name="Batch44Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="get_http_request.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest13.test13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Batch44Api" />
       <extension name="coverage">
         <pattern>
@@ -62,14 +81,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="get_http_request" />
-      <option name="MAIN_CLASS_NAME" value="get_http_request.GetRequest05" />
-      <option name="METHOD_NAME" value="bodyTest" />
+      <option name="MAIN_CLASS_NAME" value="get_http_request.GetRequest13" />
+      <option name="METHOD_NAME" value="test13" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest07.bodyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetRequest14.test14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Batch44Api" />
       <extension name="coverage">
         <pattern>
@@ -78,14 +97,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="get_http_request" />
-      <option name="MAIN_CLASS_NAME" value="get_http_request.GetRequest07" />
-      <option name="METHOD_NAME" value="bodyTest" />
+      <option name="MAIN_CLASS_NAME" value="get_http_request.GetRequest14" />
+      <option name="METHOD_NAME" value="test14" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest08.test08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetRequest14.test14JsonPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Batch44Api" />
       <extension name="coverage">
         <pattern>
@@ -94,14 +113,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="get_http_request" />
-      <option name="MAIN_CLASS_NAME" value="get_http_request.GetRequest08" />
-      <option name="METHOD_NAME" value="test08" />
+      <option name="MAIN_CLASS_NAME" value="get_http_request.GetRequest14" />
+      <option name="METHOD_NAME" value="test14JsonPath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest09" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetRequest14.test14Matchers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Batch44Api" />
       <extension name="coverage">
         <pattern>
@@ -110,23 +129,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="get_http_request" />
-      <option name="MAIN_CLASS_NAME" value="get_http_request.GetRequest09" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequest09.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Batch44Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get_http_request.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="get_http_request" />
-      <option name="MAIN_CLASS_NAME" value="get_http_request.GetRequest09" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="MAIN_CLASS_NAME" value="get_http_request.GetRequest14" />
+      <option name="METHOD_NAME" value="test14Matchers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GetRequest09.test01" />
-        <item itemvalue="JUnit.GetRequest09" />
-        <item itemvalue="JUnit.GetRequest08.test08" />
-        <item itemvalue="JUnit.GetRequest07.bodyTest" />
-        <item itemvalue="JUnit.GetRequest05.bodyTest" />
+        <item itemvalue="Application.GetRequest14" />
+        <item itemvalue="JUnit.GetRequest14.test14Matchers" />
+        <item itemvalue="JUnit.GetRequest14.test14JsonPath" />
+        <item itemvalue="JUnit.GetRequest14.test14" />
+        <item itemvalue="JUnit.GetRequest13.test13" />
       </list>
     </recent_temporary>
   </component>
