@@ -6,6 +6,7 @@ import io.restassured.response.Response;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Collections;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
@@ -41,10 +42,17 @@ spec02.pathParams("parametre1","api","parametre2","v1","parametre3","employees")
 	
 	List<Integer> age = json.getList("data.findAll{it.employee_age<30}.employee_age");
 	System.out.println(age);
-	System.out.println("en büyük yaş: "+ age.get(age.size()-1));
+	Collections.sort(age);
+	Assert.assertEquals(23, (int) age.get(age.size() - 1));
+	//Assert.assertTrue(age.get(age.size()-1)==23);
 	
+	// 4) Maası 350000 den büyük olan tüm employee name'leri ekrana yazdırın
+	// ve bunların içerisinde "Charde Marshall" olduğunu test edin
 	
+	List<Integer>salaryList=json.getList("data.findAll{it.employee_salary>350000}.employee_name");
+	System.out.println(salaryList);
 	
+	Assert.assertTrue(salaryList.contains("Charde Marshall"));
 	
 }
 }
