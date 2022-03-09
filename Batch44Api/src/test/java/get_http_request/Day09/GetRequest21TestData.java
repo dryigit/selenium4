@@ -1,4 +1,4 @@
-package Day08;
+package get_http_request.Day09;
 
 import base_url.JasonPlaceHolder;
 import io.restassured.path.json.JsonPath;
@@ -6,14 +6,15 @@ import io.restassured.response.Response;
 import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Test;
+import test_data.JsonPlaceHolderTesData;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.when;
 
-public class GetRequaet20 extends JasonPlaceHolder {
-
+public class GetRequest21TestData extends JasonPlaceHolder {
 /*
 https://jsonplaceholder.typicode.com/todos/2
 1) Status kodunun 200,
@@ -27,34 +28,28 @@ https://jsonplaceholder.typicode.com/todos/2
 */
 
 @Test
-public void test20(){
+public void test21(){
+	// 1) URL OLUŞTURMA
+	spec04.pathParams("1","todos","2",2);
 	
-	//1- url oluştur
-	spec04.pathParams("bir","todos","iki","2");
+	//2) EXPECTED DATA OLUŞTURMAK
+	JsonPlaceHolderTesData expectedDataObject = new JsonPlaceHolderTesData();
+	HashMap<String, Object>expectedData = (HashMap<String, Object>) expectedDataObject.setUpTestData();
+	System.out.println("TEST DATANIN İÇİNDEKİ EXPECTED DATA" + expectedData);
 	
-	//2- expected data oluştur
-	HashMap<String, Object> expectedData = new HashMap<>();
-	expectedData.put("statusCode",200);
-	expectedData.put("completed",false);
-	expectedData.put("title", "quis ut nam facilis et officia qui");
-	expectedData.put("userId",1);
-	expectedData.put("via","1.1 vegur");
-	expectedData.put("Server","cloudflare");
-	System.out.println(expectedData);
+	//3)  REQUEST RESPONSE
+	Response response =given().spec(spec04).when().get("/{1}/{2}");
+	response.prettyPrint();
 	
-	//3 request-response
-	Response response =given().spec(spec04).when().get("/{bir}/{iki}");
-	//response.prettyPrint();
+	//DOĞRULAMA
 	
-	// assertion
-	//1. Yol MATCHERS class
+	//1. YOL MATCHERS CLASS
 	response.then().assertThat().statusCode((Integer)expectedData.get("statusCode"))
 			.headers("via", Matchers.equalTo(expectedData.get("via")),
-			"Server",Matchers.equalTo(expectedData.get("Server")))
+					"Server",Matchers.equalTo(expectedData.get("Server")))
 			.body("userId", Matchers.equalTo(expectedData.get("userId"))
-			,"title",Matchers.equalTo(expectedData.get("title"))
-			,"completed",Matchers.equalTo(expectedData.get("completed")));
-	
+					,"title",Matchers.equalTo(expectedData.get("title"))
+					,"completed",Matchers.equalTo(expectedData.get("completed")));
 	//2. yol JSON PATH
 	JsonPath json = response.jsonPath();
 	Assert.assertEquals(expectedData.get("statusCode"),response.statusCode());
@@ -68,11 +63,14 @@ public void test20(){
 	
 	
 	//3. yol DE-SERIALIZATION
-
-HashMap<String, Object> actualData = response.as(HashMap.class);
+	
+	HashMap<String, Object> actualData = response.as(HashMap.class);
 	System.out.println(actualData);
 	Assert.assertEquals(expectedData.get("userId"), actualData.get("userId"));
 	Assert.assertEquals(expectedData.get("title"), actualData.get("title"));
 	Assert.assertEquals(expectedData.get("completed"), actualData.get("completed"));
+	
+	
 }
+
 }
