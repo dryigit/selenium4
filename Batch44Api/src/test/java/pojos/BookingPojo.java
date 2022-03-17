@@ -1,92 +1,99 @@
 package pojos;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class BookingPojo {
-/*
-"booking": {
-            "firstname": "Ali",
-            "lastname": "Can",
-            "totalprice": 500,
-            "depositpaid": true,
-            "bookingdates": {
-                            "checkin": "2022-03-01",
-                            "checkout": "2022-03-11"
+
+    /*
+      {
+     "bookingid": 11,
+            "booking": {
+                    "firstname": "Ali",
+                    "lastname": "Can",
+                    "totalprice": 500,
+                    "depositpaid": true,
+                    "bookingdates": {
+                                    "checkin": "2022-03-01",
+                                    "checkout": "2022-03-11"
+                              }
+                          }
                       }
-                  }
-              }
- */
+     */
 
-//1) private değişken oluştur
-private String firstname;
-private String lastname;
-private int totalprice;
-private boolean depositpaid;
-private BookingDatesPojo bookingDatesPojo;
+    //1) private değişken oluştur.
+    private String firstname;
+    private String lastname;
+    private int totalprice;
+    private boolean depositpaid;
+    private BookingDatesPojo bookingdates;
 
-//2) getter ve setter oluştur
+    //2) getter ve setter olustur
+    public String getFirstname() {
+        return firstname;
+    }
 
-public String getFirstname() {
-	return firstname;
-}
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
 
-public void setFirstname(String firstname) {
-	this.firstname = firstname;
-}
+    public String getLastname() {
+        return lastname;
+    }
 
-public String getLastname() {
-	return lastname;
-}
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
 
-public void setLastname(String lastname) {
-	this.lastname = lastname;
-}
+    public int getTotalprice() {
+        return totalprice;
+    }
 
-public int getTotalprice() {
-	return totalprice;
-}
+    public void setTotalprice(int totalprice) {
+        this.totalprice = totalprice;
+    }
 
-public void setTotalprice(int totalprice) {
-	this.totalprice = totalprice;
-}
+    public boolean isDepositpaid() {
+        return depositpaid;
+    }
 
-public boolean isDepositpaid() {
-	return depositpaid;
-}
+    public void setDepositpaid(boolean depositpaid) {
+        this.depositpaid = depositpaid;
+    }
 
-public void setDepositpaid(boolean depositpaid) {
-	this.depositpaid = depositpaid;
-}
+    public BookingDatesPojo getBookingdates() {
+        return bookingdates;
+    }
 
-public BookingDatesPojo getBookingDatesPojo() {
-	return bookingDatesPojo;
-}
+    public void setBookingdates(BookingDatesPojo bookingdates) {
+        this.bookingdates = bookingdates;
+    }
 
-public void setBookingDatesPojo(BookingDatesPojo bookingDatesPojo) {
-	this.bookingDatesPojo = bookingDatesPojo;
-}
 
-//3) parametreli ve paramtresiz contructor oluştur
+    //3) Parametreli ve Parametresiz Constructor
 
-public BookingPojo() {
-}
+    public BookingPojo() {
+    }
 
-public BookingPojo(String firstname, String lastname, int totalprice, boolean depositpaid, BookingDatesPojo bookingDatesPojo) {
-	this.firstname = firstname;
-	this.lastname = lastname;
-	this.totalprice = totalprice;
-	this.depositpaid = depositpaid;
-	this.bookingDatesPojo = bookingDatesPojo;
-}
+    public BookingPojo(String firstname, String lastname, int totalprice, boolean depositpaid, BookingDatesPojo bookingdates) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.totalprice = totalprice;
+        this.depositpaid = depositpaid;
+        this.bookingdates = bookingdates;
+    }
 
-//4) to string oluştur
+    //4) toString()
 
-@Override
-public String toString() {
-	return "BookingPojo{" +
-			"firstname='" + firstname + '\'' +
-			", lastname='" + lastname + '\'' +
-			", totalprice=" + totalprice +
-			", depositpaid=" + depositpaid +
-			", bookingDatesPojo=" + bookingDatesPojo +
-			'}';
-}
+
+    @Override
+    public String toString() {
+        return "BookingPojo{" +
+                "firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", totalprice=" + totalprice +
+                ", depositpaid=" + depositpaid +
+                ", bookingdates=" + bookingdates +
+                '}';
+    }
 }

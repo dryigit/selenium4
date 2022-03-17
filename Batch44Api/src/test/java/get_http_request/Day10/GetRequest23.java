@@ -12,7 +12,6 @@ import java.util.*;
 import static io.restassured.RestAssured.given;
 
 public class GetRequest23 extends DummyBaseUrl {
-
 /*
 http://dummy.restapiexample.com/api/v1/employees url ine bir istek gönderildiğinde
 Status kodun 200 olduğunu,
@@ -23,16 +22,15 @@ Sondan 3. çalışanın maaşının 675000 olduğunu
 10. Çalışan bilgilerinin bilgilerinin aşağıdaki gibi
 
 {
-        "id": 10,
-        "employee_name": "Sonya Frost",
-        "employee_salary": 103600,
-        "employee_age": 23,
-        "profile_image": ""
- }
+	"id": 10,
+	"employee_name": "Sonya Frost",
+	"employee_salary": 103600,
+	"employee_age": 23,
+	"profile_image": ""
+}
 
-  olduğunu test edin.
+olduğunu test edin.
 */
-
 @Test
 public void test23(){
 	
@@ -55,8 +53,8 @@ public void test23(){
 	//                     sondanucuncucalisaninmaasi=675000}
 	
 	//3) REQUEST VE RESPONSE OLUSTUR
-	Response response = given().spec(spec02).contentType("application/json; charset=utf-8").when().get("/{bir}/{iki}/{uc}");
-	//response.prettyPrint();
+	Response response = given().spec(spec02).contentType(ContentType.JSON).when().get("/{bir}/{iki}/{uc}");
+	response.prettyPrint();
 	
 	//4) DOGRULAMA
 	//De-Serialization
@@ -67,34 +65,56 @@ public void test23(){
 	Assert.assertEquals(expectedTestDataMap.get("statusCode"), response.getStatusCode());
 	
 	//14. Çalışan isminin "Haley Kennedy" olduğunu,
-	Assert.assertEquals(expectedTestDataMap.get("ondorduncuCalisan"),
+	Assert.assertEquals(expectedTestDataMap.get("ondorduncucalisan"),
 			((Map)((List)actualDataMap.get("data")).get(13)).get("employee_name"));
 	
 	//Çalışan sayısının 24 olduğunu,
-	Assert.assertEquals(expectedTestDataMap.get("calisanSayisi"),
+	Assert.assertEquals(expectedTestDataMap.get("calisansayisi"),
 			((List<?>) actualDataMap.get("data")).size());
 	
 	//Sondan 3. çalışanın maaşının 675000 olduğunu
 	//1. Yol
-	Assert.assertEquals(expectedTestDataMap.get("sondanUcuncuCalisanMaasi"),
+	Assert.assertEquals(expectedTestDataMap.get("sondanucuncucalisaninmaasi"),
 			((Map)((List)actualDataMap.get("data")).get(((List)actualDataMap.get("data")).size()-3)).get("employee_salary"));
 	
 	//2. Yol
 	
 	int dataSize = ((List<?>) actualDataMap.get("data")).size();
 	
-	Assert.assertEquals(expectedTestDataMap.get("sondanUcuncuCalisanMaasi"),
+	Assert.assertEquals(expectedTestDataMap.get("sondanucuncucalisaninmaasi"),
 			((Map)((List<?>) actualDataMap.get("data")).get(dataSize-3)).get("employee_salary"));
 	
 	//40,21 ve 19 yaslarında çalışanlar olup olmadığını
 	
+	//1. Yol
 	List<Integer> actualYasListesi = new ArrayList<>();
 	
 	for(int i =0; i<dataSize; i++){
 		actualYasListesi.add(((Integer) ((Map)((List<?>) actualDataMap.get("data")).get(i)).get("employee_age")));
 	}
+	System.out.println("actualYasListesi = " + actualYasListesi);
 	
-	Assert.assertTrue(actualYasListesi.containsAll((Collection<?>) expectedTestDataMap.get("arananYaslar")));
+	Assert.assertTrue(actualYasListesi.containsAll((Collection<?>) expectedTestDataMap.get("arananyaslar")));
 	
+	//10. CALISANIN BiLGiLERiNi
+        /*
+        {"id": 10,
+               "employee_name": "Sonya Frost",
+               "employee_salary": 103600,
+               "employee_age": 23,
+               "profile_image": ""}
+        */
+	
+	Assert.assertEquals(((Map) expectedTestDataMap.get("onuncucalisan")).get("employee_name"),
+			((Map)((List) actualDataMap.get("data")).get(9)).get("employee_name"));
+	
+	Assert.assertEquals(((Map) expectedTestDataMap.get("onuncucalisan")).get("employee_salary"),
+			((Map)((List) actualDataMap.get("data")).get(9)).get("employee_salary"));
+	
+	Assert.assertEquals(((Map) expectedTestDataMap.get("onuncucalisan")).get("employee_age"),
+			((Map)((List) actualDataMap.get("data")).get(9)).get("employee_age"));
+	
+	Assert.assertEquals(((Map) expectedTestDataMap.get("onuncucalisan")).get("profile_image"),
+			((Map)((List) actualDataMap.get("data")).get(9)).get("profile_image"));
 }
 }

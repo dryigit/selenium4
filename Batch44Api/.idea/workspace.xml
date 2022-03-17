@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41480fbe-2100-4416-9379-548cd928c9ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day13/PostRequest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DersNotları" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day05/GetRequest06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day05/GetRequest09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day05/GetRequest10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day06/GetRequest11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day06/GetRequest12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day06/GetRequest13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day06/GetRequest14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day06/GetRequest15.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AutomationExcercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutomationExcercise/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AutomationExcercise/src/test/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutomationExcercise/src/test/java/pages/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/get_http_request/GetRequest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day03/GetRequest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/get_http_request/GetRequest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day04/GetRequest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/get_http_request/GetRequest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day04/GetRequest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/get_http_request/GetRequest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day04/GetRequest04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/get_http_request/GetRequest05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day04/GetRequest05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/get_http_request/GetRequest07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day05/GetRequest07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/get_http_request/GetRequest08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_http_request/day05/GetRequest08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/get_http_request/GetRequest09.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HMCTeamProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HMCTeamProject/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JdbcBatch44/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JdbcBatch44/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.Batch44POM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.Batch44POM/.idea/workspace.xml" afterDir="false" />
@@ -59,39 +70,77 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/get_http_request/day06" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.PostRequest02.test">
-    <configuration name="GetRequest21TestData.test21" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/get_http_request/day06" />
+      <recent name="$PROJECT_DIR$/src/test/java/get_http_request/day05" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/get_http_request/day05" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GetRequest23.test23">
+    <configuration name="GetRequest11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="get_http_request.day06.GetRequest11" />
       <module name="Batch44Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="get_http_request.Day09.*" />
+          <option name="PATTERN" value="get_http_request.day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="get_http_request.Day09" />
-      <option name="MAIN_CLASS_NAME" value="get_http_request.Day09.GetRequest21TestData" />
-      <option name="METHOD_NAME" value="test21" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Batch44Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="get_http_request.day06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="get_http_request.day06" />
+      <option name="MAIN_CLASS_NAME" value="get_http_request.day06.GetRequest11" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest11.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Batch44Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="get_http_request.day06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="get_http_request.day06" />
+      <option name="MAIN_CLASS_NAME" value="get_http_request.day06.GetRequest11" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest22.test22" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetRequest12.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Batch44Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="get_http_request.Day09.*" />
+          <option name="PATTERN" value="get_http_request.day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="get_http_request.Day09" />
-      <option name="MAIN_CLASS_NAME" value="get_http_request.Day09.GetRequest22" />
-      <option name="METHOD_NAME" value="test22" />
+      <option name="PACKAGE_NAME" value="get_http_request.day06" />
+      <option name="MAIN_CLASS_NAME" value="get_http_request.day06.GetRequest12" />
+      <option name="METHOD_NAME" value="test12" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,44 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostRequest02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Batch44Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get_http_request.day13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="get_http_request.day13" />
-      <option name="MAIN_CLASS_NAME" value="get_http_request.day13.PostRequest02" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostRequest02.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Batch44Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get_http_request.day13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="get_http_request.day13" />
-      <option name="MAIN_CLASS_NAME" value="get_http_request.day13.PostRequest02" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostRequest02.test" />
-        <item itemvalue="JUnit.PostRequest02" />
         <item itemvalue="JUnit.GetRequest23.test23" />
-        <item itemvalue="JUnit.GetRequest22.test22" />
-        <item itemvalue="JUnit.GetRequest21TestData.test21" />
+        <item itemvalue="JUnit.GetRequest12.test12" />
+        <item itemvalue="JUnit.GetRequest11.test" />
+        <item itemvalue="Application.GetRequest11" />
+        <item itemvalue="JUnit.GetRequest11" />
       </list>
     </recent_temporary>
   </component>
@@ -164,16 +182,5 @@
       <updated>1646165728897</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/get_http_request/day13/PostRequest02.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
